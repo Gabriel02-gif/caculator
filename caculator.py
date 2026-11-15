@@ -3,7 +3,7 @@ import streamlit as st
 st.title("124电费计算器")
 
 power = st.number_input("电器功率（W）：")
-a = st.number_input("使用时长（小时）：")
+a = st.number_input("使用时长（分钟）：")
 hours = a / 60
 price = 0.63
 
